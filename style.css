@@ -1,0 +1,250 @@
+/* Custom classes inspired by your CSS file */
+body {
+font-family: Arial, sans-serif;
+background-color: #1E1E1E;
+color: #EAEAEA;
+margin: 0;
+padding: 0;
+}
+.blog-container {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #2E2E2E;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.blog-title {
+font-size: 2em;
+text-align: center;
+margin-bottom: 20px;
+color: #EAEAEA;
+}
+.blog-image {
+width: 100%;
+height: auto;
+border-radius: 8px;
+margin: 20px 0;
+}
+.blog-content {
+text-align: justify;
+line-height: 1.6;
+}
+.highlight {
+color: #FFD700;
+}
+html {
+scroll-behavior: smooth;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #1E1E1E;
+color: #EAEAEA;
+font-size: xx-large;
+margin: 0;
+padding: 0;
+}
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333; /* Dark gray for nav */
+padding: 15px 20px; /* Adjusted padding */
+}
+
+/* Styling for the logo */
+.logo img {
+width: 50px; /* Fixed logo size */
+height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling for the nav ul */
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+/* Styling for the nav items */
+nav ul li {
+position: relative;
+}
+
+nav ul li a {
+display: block;
+padding: 14px 20px;
+text-decoration: none;
+color: #EAEAEA; /* Light text */
+background-color: #333; /* Dark gray */
+border-radius: 5px; /* Rounded corners for links */
+transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+background-color: rgba(255, 255, 255, 0.1); /* Change background on hover */
+}
+
+/* Dropdown menu styling */
+nav ul li .dropdown-content {
+display: none;
+position: absolute;
+background-color: #333; /* Dark gray for dropdown */
+min-width: 160px;
+z-index: 1;
+}
+
+nav ul li .dropdown-content li {
+float: none;
+}
+
+nav ul li .dropdown-content li a {
+padding: 12px 16px;
+display: block;
+color: #EAEAEA; /* Light text */
+background-color: #333; /* Dark gray */
+}
+
+nav ul li .dropdown-content li a:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Show dropdown when hovered */
+nav ul li:hover .dropdown-content {
+display: block;
+}
+#landing-image {
+width: 100%;
+height: auto;
+max-height: 70vh;
+}
+h1 {
+text-align: center;
+font-size: 2em;
+margin-top: 20px;
+}
+.series-container {
+max-width: 80%;
+margin: 20px auto;
+padding: 10px;
+background-color: #2E2E2E;
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.products-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 15px;
+padding: 15px 0;
+}
+.product-card {
+background-color: #333;
+color: #EAEAEA;
+padding: 15px;
+border-radius: 8px;
+width: 22%;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+text-align: center;
+transition: transform 0.3s;
+}
+.product-card:hover {
+transform: scale(1.05);
+}
+.product-card img {
+width: 100%;
+height: auto;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+h2 {
+font-size: 1.5em;
+margin: 0;
+}
+/* Styling for the discover button */
+#discover {
+color: #EAEAEA; /* Light color */
+border-color: #EAEAEA; /* Light border */
+border-width: 2%;
+border-radius: 5px; /* Slightly rounded corners */
+border-style: solid;
+text-decoration: none;
+padding: 12px 20px;
+transition: background-color 0.3s;
+margin-top: 20px; /* Space above the button */
+}
+
+#discover:hover {
+background-color: rgba(255, 255, 255, 0.1);
+}
+/* Styling for the info section */
+#info {
+padding: 20px;
+max-width: 1200px; /* Limit the max width for better readability */
+margin: 0 auto; /* Center the content */
+}
+
+#landing-image {
+width: 100%;
+height: auto;
+max-height: 70vh;
+}
+
+.content-section {
+padding: 20px; /* Adds padding around the content */
+max-width: 1200px; /* Limits the max width for better readability */
+margin: 20px auto; /* Centers the section and adds vertical spacing */
+background-color: #2E2E2E; /* Slightly lighter background for contrast */
+border-radius: 8px; /* Rounded corners */
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow effect for depth */
+}
+
+.content-section img {
+width: 100%; /* Makes the image responsive */
+height: auto; /* Maintains aspect ratio */
+border-radius: 8px; /* Rounded corners for the image */
+margin-top: 20px; /* Space above the image */
+}
+
+p {
+max-width: 800px; /* Limit paragraph width */
+text-align: justify; /* Justify text for better readability */
+}
+
+table {
+width: 100%; /* Make the table full width */
+border-collapse: collapse; /* Merge borders for a cleaner look */
+margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+padding: 15px; /* Add padding to table cells */
+text-align: left; /* Align text to the left */
+}
+
+th {
+background-color: #444; /* Darker background for headers */
+color: #EAEAEA; /* Light text color */
+border-bottom: 2px solid #EAEAEA; /* Underline the header */
+}
+
+tr:nth-child(even) {
+background-color: #333; /* Alternate row color */
+}
+
+tr:hover {
+background-color: rgba(255, 255, 255, 0.1); /* Highlight row on hover */
+}
+
+td {
+border-bottom: 1px solid #555; /* Border for table cells */
+}
+
+a {
+    color: #EAEAEA;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #EAEAEA;
+}
