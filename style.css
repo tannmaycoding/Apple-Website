@@ -170,6 +170,7 @@ border-radius: 5px; /* Slightly rounded corners */
 border-style: solid;
 text-decoration: none;
 padding: 12px 20px;
+margin: 7px;
 transition: background-color 0.3s;
 margin-top: 20px; /* Space above the button */
 }
