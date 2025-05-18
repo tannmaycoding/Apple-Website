@@ -1,2 +1,2 @@
 # Apple-Website
-This a website madeas a school project. Please open `home.html` to start
+This a website made as a school project. Please open `home.html` to start
